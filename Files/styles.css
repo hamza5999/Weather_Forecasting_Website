@@ -1,0 +1,81 @@
+body
+{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    font-size: 0px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #e35407;
+    -webkit-text-stroke: 1.5px white;
+}
+#forTimeNDate
+{
+    text-align: right;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    -webkit-text-stroke: 0.6px  #fc4103;
+}
+.mini-form
+{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+}
+input[type=search] 
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid#fc4103;
+    color: #fc5a03;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+button[type=submit]
+{
+    background-color: #f94d00;
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: grab;
+}
+::placeholder
+{
+    color: #FF6700;
+    font-style: oblique;
+}
+table
+{
+    border-radius: 5px;
+    border-collapse: collapse;
+    font-size: large;
+    -webkit-text-stroke: 0.3px #fc4103;
+    color: white;
+    position: absolute;
+    left: 24em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+th
+{
+    text-align: left;
+}
+th,td
+{
+    border: 2px solid#fc4103;
+    padding: 5px;
+}
